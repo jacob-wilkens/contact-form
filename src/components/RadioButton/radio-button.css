@@ -1,0 +1,12 @@
+.radio-container {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.radio-container > input[type="radio"] {
+  accent-color: var(--green-600);
+}
